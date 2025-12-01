@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:gravity="center"
+    android:layout_marginEnd="12dp">
+
+    <!-- Tanggal -->
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23/11"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#333" />
+
+    <!-- Icon kondisi -->
+    <ImageView
+        android:id="@+id/ivIconDay"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Suhu maks/min -->
+    <TextView
+        android:id="@+id/tvTempMaxMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32° / 24°"
+        android:textSize="15sp"
+        android:textColor="#222"
+        android:textStyle="bold" />
+
+    <!-- Deskripsi cuaca -->
+    <TextView
+        android:id="@+id/tvWeatherDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berawan"
+        android:textSize="13sp"
+        android:textColor="#555"
+        android:layout_marginTop="2dp" />
+
+    <!-- % potensi hujan -->
+    <TextView
+        android:id="@+id/tvRainChance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11% hujan"
+        android:textSize="12sp"
+        android:textColor="#777"
+        android:layout_marginTop="2dp" />
+
+</LinearLayout>
